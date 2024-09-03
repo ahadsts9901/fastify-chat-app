@@ -1,0 +1,25 @@
+{
+  "name": "02-fastify-crud-with-variable",
+  "version": "1.0.0",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cookie": "^9.4.0",
+    "@fastify/cors": "^9.0.1",
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "fastify-socket.io": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.0"
+  }
+}
